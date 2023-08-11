@@ -1,3 +1,15 @@
+# My Advice App
+
+Bem-vindo ao My Advice App! Este é um aplicativo React que oferece conselhos inspiradores e frases motivacionais para enriquecer sua jornada pessoal. Explore uma variedade de conselhos e mensagens que abrangem desde autoaperfeiçoamento até bem-estar emocional. A interface é responsiva, adaptando-se perfeitamente a dispositivos móveis e tablets.
+
+## Funcionalidades
+
+- Explore conselhos inspiradores para diversas áreas da vida.
+- Interface amigável e intuitiva para facilitar a navegação.
+- Design responsivo que se adapta a diferentes tamanhos de tela.
+- Citações e mensagens cuidadosamente selecionadas para inspiração diária.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
