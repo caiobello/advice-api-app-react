@@ -4,8 +4,8 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
   min-height: 100vh;
 }
 
@@ -14,10 +14,11 @@ body {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px; /* Adjust padding for smaller screens */
-  position: relative;
-  width: 90%; /* Add width for better responsiveness */
-  max-width: 600px; /* Limit the maximum width of the container */
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  margin-top: 20px; /* Add margin to separate from the top */
+  margin-bottom: 20px; /* Add margin to separate from the bottom */
 }
 
 .background {
@@ -32,19 +33,19 @@ body {
 
 h1 {
   color: #333;
-  font-size: 30px; /* Decrease font size for smaller screens */
-  margin-bottom: 15px; /* Adjust margin for smaller screens */
+  font-size: 30px;
+  margin-bottom: 15px;
 }
 
 h2 {
   color: #666;
-  font-size: 20px; /* Decrease font size for smaller screens */
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 p {
   color: #888;
-  font-size: 16px; /* Decrease font size for smaller screens */
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -57,7 +58,7 @@ p {
   transform: translateX(-50%);
   left: 50%;
   background-color: #f0f0f0;
-  font-size: 14px; /* Decrease font size for smaller screens */
+  font-size: 14px;
 }
 
 /* Media query for tablets and smaller screens */
