@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import { AdviceComponent } from './components/Frase';
+import background from './asset/background.PNG';
+import { Footer } from "./components/Footer";
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div>
+        <img src={background} className="background" alt="background app" />
+      </div>
+      <h1>My Advice App</h1>
+      <div className="container">
+        <AdviceComponent />
+      </div>
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
-}
+};
 
 export default App;

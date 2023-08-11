@@ -1,0 +1,39 @@
+/* style.css */
+
+/* Estilos para o container do componente */
+.advice-container {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilos para o título */
+  .advice-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para o conselho */
+  .advice-text {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Estilos para um botão (opcional) */
+  .advice-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .advice-button:hover {
+    background-color: #0056b3;
+  }
+  
